@@ -24,10 +24,12 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <div className='cardcontainer'>
       {data.results && data.results.map(data =>(
         <Cards data ={data}
         />
       ))}
+      </div>
     </div>
   );
 }

@@ -6,3 +6,19 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.cardcontainer{
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: flex-start;
+}
+.mycard {
+  /*display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  background: lightyellow*/
+}
+
+h2{
+  background: gray; 
+  color: white; 
+}
